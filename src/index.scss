@@ -1,0 +1,27 @@
+body {
+  // La url de abajo la carga webpack con file-loader
+  background-image:url(./assets/drinks.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+// .tragos {
+//   display: inline-block;
+//   vertical-align: middle;
+//   margin: 10px 20px;
+//   width: 300px;
+
+  h2 {
+    height: 60px;
+    text-align: center;
+  }
+
+  img {
+    height: 380px;
+    width: 300px;
+  }
