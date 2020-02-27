@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>tragos</title>
-  </head>
-  <body>
-    <form id="trago">
-      <input   type="text"id="search" placeholder="buscar trago">
-      <button id="buscador" type="submit">buscar</button>
-    </form>
 
+<head>
+    <title>tragos</title>
+</head>
+
+<body>
+    <div class="medio">
+        <form id="trago">
+            <img src="../src/assets/nicolechy.png">
+            <input type="text" id="search" class="form-control white" placeholder="buscar trago">
+            <br>
+            <button id="buscador" type="submit" class="btn btn-outline-info">buscar</button>
+        </form>
+    </div>
     <h1 id="title"></h1>
     <div class="test"></div>
     <div id="resultado"></div>
 
-  </body>
+    <table class="table table-hover" id="table">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Bebida</th>
+                <th scope="col">Glass</th>
+            </tr>
+        </thead>
+        <tbody id="contenido">
+
+        </tbody>
+    </table>
+</body>
+
 </html>

@@ -28,6 +28,7 @@
     "webpack-dev-server": "^3.10.2"
   },
   "dependencies": {
+    "bootswatch": "^4.4.1",
     "lodash": "^4.17.15"
   }
 }
