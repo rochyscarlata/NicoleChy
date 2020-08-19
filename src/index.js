@@ -31,6 +31,7 @@ function tabla(bebidas) {
         <td>${valor.strCategory}</td>
         <td>${valor.strAlcoholic}</td>
         <td>${valor.strGlass}</td>
+      
     </tr>`
 
     }
